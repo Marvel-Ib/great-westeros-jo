@@ -13,7 +13,7 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
 app.get("/", (req, res, next) => {
-  res.send("Hello")
+  res.send("westeros jo")
 })
 
 app.post("/", (req, res, next) => {
